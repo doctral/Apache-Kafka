@@ -37,6 +37,8 @@
         1. Kafka can scale processing
         2. Kafka allows multi-subscriber
         3. Ordering guarantees: by having partition within the topics, Kafka is able to to provide both ordering guarantees and loading balancing over a pool of consumer processes. Each partition is consumed by exactly one consumer in the group and there cannot be more consumer instances in a consumer group than partitions.
-
+6. Kafka as a Storage System: Any message queue that allows publishing messages decoupled from consuming them is effectively acting as a storage system for the in-flight messages.
+7. Kafka for Stream Processing: it enables real-time processing of streams by using Streams API. 
+8. Kafka is a distributed streaming platform that combines messaging system, storage system, and stream processing.  
 
 
